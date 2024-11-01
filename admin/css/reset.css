@@ -1,0 +1,50 @@
+/* reset2.css */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ .twgm-tabs div, .twgm-tabs span, .twgm-tabs applet, .twgm-tabs object, .twgm-tabs iframe,
+ .twgm-tabs h1, .twgm-tabs h2, .twgm-tabs h3, .twgm-tabs h4, .twgm-tabs h5, .twgm-tabs h6, .twgm-tabs p, .twgm-tabs blockquote, .twgm-tabs pre,
+ .twgm-tabs a, .twgm-tabs abbr, .twgm-tabs acronym, .twgm-tabs address, .twgm-tabs big, .twgm-tabs cite, .twgm-tabs code,
+ .twgm-tabs del, .twgm-tabs dfn, .twgm-tabs em, .twgm-tabs img, .twgm-tabs ins, .twgm-tabs kbd, .twgm-tabs q, .twgm-tabs s, .twgm-tabs samp,
+ .twgm-tabs small, .twgm-tabs strike, .twgm-tabs strong, .twgm-tabs sub, .twgm-tabs sup, .twgm-tabs tt, .twgm-tabs var,
+ .twgm-tabs b, .twgm-tabs u, .twgm-tabs i, .twgm-tabs center,
+ .twgm-tabs dl, .twgm-tabs dt, .twgm-tabs dd, .twgm-tabs ol, .twgm-tabs ul, .twgm-tabs li,
+ .twgm-tabs fieldset, .twgm-tabs form, .twgm-tabs label, .twgm-tabs legend,
+ .twgm-tabs table, .twgm-tabs caption, .twgm-tabs tbody,  .twgm-tabs tfoot, .twgm-tabs thead, .twgm-tabs tr, .twgm-tabs th, .twgm-tabs td,
+ .twgm-tabs article, .twgm-tabs aside, .twgm-tabs canvas, .twgm-tabs details, .twgm-tabs embed, 
+ .twgm-tabs figure, .twgm-tabs figcaption, .twgm-tabs footer, .twgm-tabs header, .twgm-tabs hgroup, 
+ .twgm-tabs menu, .twgm-tabs nav, .twgm-tabs output, .twgm-tabs ruby, .twgm-tabs section, .twgm-tabs summary,
+ .twgm-tabs time, .twgm-tabs mark, .twgm-tabs audio, .twgm-tabs video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+ .twgm-tabs article,  .twgm-tabs aside,  .twgm-tabs details,  .twgm-tabs figcaption,  .twgm-tabs figure, 
+ .twgm-tabs footer,  .twgm-tabs header,  .twgm-tabs hgroup,  .twgm-tabs menu,  .twgm-tabs nav,  .twgm-tabs section,  .twgm-tabs main {
+	display: block;
+}
+ .twgm-tabs body {
+	line-height: 1;
+}
+ .twgm-tabs ol,  .twgm-tabs ul {
+	list-style: none;
+}
+ .twgm-tabs blockquote, q {
+	quotes: none;
+}
+ .twgm-tabs blockquote:before,  .twgm-tabs blockquote:after,
+ .twgm-tabs q:before,  .twgm-tabs q:after {
+	content: '';
+	content: none;
+}
+ .twgm-tabs table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

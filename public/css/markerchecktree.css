@@ -1,0 +1,98 @@
+.checktree, .checktree *{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checktree ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px !important;
+}
+
+.checktree li {
+  float: left;
+  padding: 3px 0;
+  width: 100%;
+  word-break: break-word;
+}
+
+/*.checktree li > ul > li {
+  border-bottom: 1px solid gray;
+}*/
+
+.checktree li .marker-label {
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 4px 0 2px 0;
+  font-size: 12px;
+  line-height: 15px;
+  float: left;
+  font-weight: normal;
+  width: 135px;
+}
+
+.checktree li .arrow {
+  /*width: 16px;
+  height: 14px;
+  margin: 5px 5px 0;
+  cursor: pointer;
+  float: left;*/
+}
+
+.checktree li > ul > li > .arrow {
+  /*margin: 0px;*/
+}
+
+.checktree li .collapsed {
+  /*background: url(checktree_icon.png) no-repeat;
+  background-position: -1px -21px;
+  opacity: 0.4;*/
+  float: right;
+}
+
+.checktree li .expanded {
+  /*background: url(checktree_icon.png) no-repeat;
+  background-position: -17px -21px;
+  opacity: 0.4;*/
+  float: right;
+}
+
+.checktree li .checkbox {
+  width: 15px;
+  height: 15px;
+  min-height: 15px;
+  cursor: pointer;
+  float: left;
+  background: url(checktree_icon.png) no-repeat;
+  background-position: -1px -4px;
+  opacity: 0.4;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.checktree li .checked {
+  background-position: -17px -4px;
+  opacity: 0.4;
+}
+
+.checktree li .half_checked {
+  background-position: -33px -4px;
+  opacity: 0.4;
+}
+
+.checktree li li .arrow {
+  margin-left: 24px;
+}
+
+.checktree li li li .arrow {
+  margin-left: 48px;
+}
+
+.checktree li li li li .arrow {
+  margin-left: 72px;
+}
+
+.checktree li li li li li .arrow {
+  margin-left: 96px;
+}

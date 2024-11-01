@@ -1,0 +1,31 @@
+.twgm-marker-wrap {
+	display: table;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.twgm-button-wrap {
+	display: block;
+    margin: 10px;
+}
+
+.twgm-marker-wrap .twgm-marker-icon {
+    float: left;
+    width: 33px;
+    margin: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.53);
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.07)
+}
+
+.twgm-marker-icon img {
+	display: block;
+} 
+
+.twgm-marker-icon .twgm-marker-radio {
+	display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+}

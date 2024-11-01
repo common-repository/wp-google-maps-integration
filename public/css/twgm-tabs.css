@@ -1,0 +1,156 @@
+.ui-tabs.ui-tabs-vertical {
+    padding: 0;
+    /*width: 42em;*/
+}
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+    border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    float: right;
+    width: 40px;
+    height: 100%;
+    background: #626262;
+    /*background: #CCC;*/
+    border-radius: 0px;
+    /*border-right: 1px solid gray;*/
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    height: 40px;
+    /*margin: 0.2em 0;*/
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    overflow: hidden;
+    /*position: relative;*/
+    right: -2px;
+    z-index: 2;
+    /*background: #e67e22;*/
+    border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    /*display: block;
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    outline: none;
+    box-shadow: none !important;
+    font-size: 15px;*/
+    display: block;
+    width: 100%;
+    /*padding: 10px 14px;*/
+    color: #484848;
+    outline: none;
+    box-shadow: none !important;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    cursor: pointer;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    /*margin-bottom: 0.2em;
+    padding-bottom: 0;*/
+    /*background: #d76500;*/
+    /*background: rgba(0, 0, 0, 0.15);*/
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    float: left;
+    /*width: 260px;*/
+    width: calc( 100% - 40px );
+    border-radius: 0;
+    position: relative;
+    left: -1px;
+    height: 320px;
+    margin-top: 55px;
+    /*overflow-y: scroll;*/
+    overflow-x: hidden;
+    padding: 30px;
+    font-size: 13px;
+    /*color: #484848;*/
+
+    box-sizing: border-box;
+}
+
+.ui-tabs label {
+    /*color: inherit !important;*/
+}
+
+.ui-tabs-panel a {
+    color: #e67e22;
+}
+
+.ui-tabs .twgm-sp-header-box {
+    /*position: absolute;
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 10px;
+    color: #626262;
+    line-height: 50px;
+    letter-spacing: -1.5px;*/
+    position: absolute;
+    /* margin-left: 25px; */
+    font-size: 30px;
+    font-weight: lighter;
+    top: 0px;
+    color: #626262;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    background: #fb5555;
+    height: 55px;
+    text-align: right;
+    /*padding-right: 25px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ui-tabs table, .ui-tabs table th, .ui-tabs table tr, .ui-tabs table td {
+    background: none;
+    border: none;
+}
+
+.ui-tabs a {
+    text-decoration: none;
+}
+
+.ui-tabs .twgm-sp-togglenav,
+.ui-tabs .twgm-sp-togglemin {
+    font-family: IonIcons;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline;
+}
+
+.ui-tabs .twgm-sp-togglemin {
+    display: none;
+}
+
+.twgm-sp-header-title {
+    display: inline;
+}
+
+.twgm .twgm-sph-icon {
+    font-family: IonIcons;
+    font-weight: lighter;
+    font-size: 30px;
+    display: inline;
+}
+
+.twgm .twgm-sph-text {
+    font-size: 30px;
+    display: inline;
+    font-weight: lighter;
+}
+
+.twgm-sp-nav li a {
+    font-family: IonIcons;
+}

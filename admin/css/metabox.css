@@ -1,0 +1,67 @@
+#twgm_mbox{
+	overflow: hidden;
+	padding-bottom: 1em;
+}
+
+#twgm_mbox p{
+	clear: both;
+}
+
+.twgm-row-title{
+	display: block;
+	float: left;
+	width: 120px;
+	font-weight: 500;
+}
+
+.twgm-row-content{
+	float: left;
+    padding-bottom: 1em;
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    padding: 5px 10px;
+}
+
+.twgm-image-content{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.twgm-row-content label{
+	display: block;
+	line-height: 1.75em;
+}
+
+.twgm-inline-label {
+	margin-right:10px;
+}
+
+.twgm input[type="text"]{
+	height: 35px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.twgm-fullwidth {
+	width: 100%;
+}
+
+.twgm .row-field {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.twgm-row-static{
+	margin-right: 10px;
+	float: left;
+    padding-bottom: 1em;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.twgm-row-static label {
+	display: block;
+}

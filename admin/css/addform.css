@@ -1,0 +1,508 @@
+/*************************
+	  SUB FORM TITLE
+**************************/
+.twgm .form-group-title2 label {
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.form-group.form-sub-title {
+    border-left: 5px solid #ff4f4f;
+    padding-left: 8px;
+    margin-top: 30px;
+}
+
+.twgm .form-sub-title label {
+	font-size: 20px;
+    margin-top: 5px;
+}
+
+.twgm .form-sub-title p {
+	line-height: 15px !important;
+	font-size: 12px !important;
+	color: #bbbbbb !important;
+}
+
+.twgm p.twgm-group-info {
+	font-size: 11px !important;
+    line-height: 13px !important;
+    margin-bottom: 0px !important;
+    color: #bbbbbb !important;
+}
+
+/*************************
+	  FORM GROUP TITLE
+**************************/
+
+.twgm .form-group-title {
+	margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.twgm .form-group-title label {
+    margin-bottom: 0px;
+}
+
+.twgm .bg-group {
+    padding: 10px;
+    background: #fafafa;;
+}
+
+.twgm .form-group-title2 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.twgm .form-group-title2 label {
+    font-size: 17px;
+}
+
+/*************************
+	UPLOAD/SELECT IMAGE
+**************************/
+
+.twgm .wp-media-wrapper {
+	/*max-width: 200px;*/
+}
+
+.twgm .wp-media-wrapper img {
+	max-width: 100%;
+    max-height: 100px;
+    margin: 10px 5px;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.twgm .wp-media-wrapper label{
+	font-size: 11px;
+	line-height: 12px;
+	color: #bbbbbb;
+	display: block;
+}
+
+.twgm .btn-wrapper {
+	margin: 4px 0px;
+}
+
+/*************************
+	  RADIO & CHECKBOX
+**************************/
+
+.twgm .checkbox-wrapper .checkbox {
+    display: inline;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 782px) {
+	.twgm input[type="radio"], .twgm input[type="checkbox"] {
+    	height: 16px;
+    	width: 16px;
+    }
+	.twgm input[type="radio"]:checked:before {
+	    vertical-align: middle;
+	    width: 6px;
+	    height: 6px;
+	    margin: 4px;
+	    line-height: 16px;
+	}
+	.twgm input[type="checkbox"]:checked:before {
+	    margin: -3px 0 0 -4px;
+	    font: normal 21px/1 dashicons;
+	}
+}
+
+/*************************
+		INFOWINDOW
+**************************/
+
+.gm-style-iw table {
+	font-size:11px;
+	line-height: 16px;
+}
+
+.gm-style-iw table td:first-child {
+	font-weight: bold;
+	padding-right: 13px;
+}
+
+/*************************
+	   CUSTOM BUTTON
+**************************/
+
+.twgm .btn {
+    outline: none !important;
+}
+
+#fill-btn {
+	margin: 10px -15px;
+    margin-top: -10px;
+}
+
+#fill-btn .btn {
+	/*font-size: 11px;*/
+	margin-bottom: 4px;
+}
+
+#add-extra-field {
+	/*font-size: 11px;*/
+}
+
+.twgm .ef-form-btn {
+	font-size: 11px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    margin-left: 5px;
+    float: left;
+}
+
+#extra-field-key {
+	width: calc( 100% - 80px );
+    float: left;
+}
+
+.twgm .single-extra-field input {
+	/*padding-right: 30px;*/
+}
+
+.twgm .remove-extra-field {
+    /*font-size: 12px;
+    line-height: 10px;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    height: 35px;
+    width: 12px;
+    padding: 0px;
+    padding-top: 10px;*/
+
+	font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: -7px;
+    right: 7px;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    padding-top: 4px;
+    text-align: center;
+    border-radius: 50%;
+    background: #cb1d1d;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    color: white;
+    cursor: pointer;
+}
+
+.twgm .btn-blue {
+	color: #fff;
+	background-color: #1f5366;
+    border-color: #1f5366;
+}
+
+.twgm .btn-blue:hover, .twgm .btn-blue.hover,
+.twgm .btn-blue:focus, .twgm .btn-blue.focus,
+.twgm .btn-blue:active, .twgm .btn-blue.active {
+	color: #fff;
+    background-color: #206984;
+    border-color: #206984;
+}
+
+.twgm .btn-red {
+	color: #fff;
+	background-color: #cb1d1d;
+    border-color: #cb1d1d;
+}
+
+.twgm .btn-red:hover, .twgm .btn-red.hover,
+.twgm .btn-red:focus, .twgm .btn-red.focus,
+.twgm .btn-red:active, .twgm .btn-red.active {
+	color: #fff;
+	background-color: #df1212;
+    border-color: #df1212;
+}
+
+.twgm .btn-orange {
+	color: #fff;
+	background: #ff4f4f; 
+  	border-color: #ff4f4f;
+    border-radius: 0px;
+}
+
+.twgm .btn-orange:hover, .twgm .btn-orange.hover,
+.twgm .btn-orange:focus, .twgm .btn-orange.focus,
+.twgm .btn-orange:active, .twgm .btn-orange.active {
+	color: #fff;
+	background: #ff3f3f;
+	border-color: #ff4f4f;
+}
+
+.twgm label {
+	/*font-weight: 500;*/
+	font-weight: normal;
+}
+
+/*.twgm input[type="checkbox"],
+.twgm input[type="radio"] {
+	background: #1f5366;
+	border-color: #1f5366;
+}
+
+.twgm input[type="checkbox"]:checked:before {
+	color: #ff4f00;
+}
+
+.twgm input[type="radio"]:checked:before {
+	background: #ff4f00;
+}*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.twgm label, .twgm span, .twgm input, .twgm a {
+	font-family: 'Roboto',serif;
+}*/
+
+.twgm img.ctg-img[src=""] {
+   background: #c1c1c1;
+   height: 30px;
+   width: 30px;
+}
+
+.twgm img.ctg-img {
+	max-height:30px;
+	max-width: 30px;
+}
+
+/*************************
+		SHAPE SETTING
+**************************/
+
+.twgm .glyphicon-arrow-up, 
+.twgm .glyphicon-arrow-down {
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.twgm .shape-setting {
+    display: inline-block;
+    background: #616161;
+    /*padding: 3px 10px;*/
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: relative;
+    /*height: 60px;*/
+    margin-bottom: 15px !important;
+}
+
+.shape-setting > div {
+    border: 1px solid #555555 !important;
+    padding: 10px !important;
+    height: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.04);
+    vertical-align: top;
+    margin: 2px 0px;
+}
+
+.shape-setting .shape-color {
+	display: inline-block; 
+	background: orange;
+	height: 20px;
+	width: 20px;
+	border: 1px solid gray;
+}
+
+.shape-setting .color-wrap label, 
+.shape-setting .color-wrap label {
+	vertical-align: bottom;
+	font-size: 10px;
+	color: white;
+}
+
+.shape-setting .shape-weight {
+	display: inline-block;
+}
+
+.shape-setting .shape-weight select {
+    width: 55px !important;
+    height: 20px !important;
+    font-size: 9px !important;
+}
+
+.shape-setting .shape-weight label {
+	font-size: 10px;
+	color: white;
+}
+
+.shape-setting .color-wrap {
+	display: inline-block;
+}
+
+.shape-setting .btn-mng {
+	color: white;
+}
+
+.shape-setting .layer-order .btn-ol{
+	text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    color: white;
+    height: 20px;
+    width: 20px;
+    background: gray;
+    cursor: pointer;
+}
+
+.shape-setting .layer-order {
+	display: inline-block;
+}
+
+.shape-setting .color-wrap .cont {
+
+}
+
+.twgm .shape-info {
+	padding: 10px;
+	background: #616161;
+	color: white;
+	border-radius: 5px;
+}
+
+.twgm .shape-info > label {
+	font-weight: 500;
+}
+
+.shape-info .radio {
+	margin: 0px 0px;
+}
+
+.shape-info .radio label {
+	font-size: 10px;
+	margin: 2px 0px;
+}
+
+.shape-info textarea, 
+.shape-info input {
+	font-size: 10px !important;
+    color: #ffdc36 !important;
+	background: #616161 !important;
+	border: 1px solid #7a7a7a !important;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.16) !important;
+}
+
+/***********************************
+	Infowindow Form - IW Setting
+************************************/
+
+.twgm .CodeMirror {
+    font-size: 11px;
+}
+
+.twgm .iw-setting {
+	/*max-height: 650px;
+    overflow-y: scroll;*/
+    /*padding: 15px;*/
+    /*background: #f1f1f1;
+    border: 1px solid #f1f1f1;*/
+}
+
+.twgm .iw-setting .col-md-4 {
+    width: 33.33333333% !important;
+    float: left;
+}
+
+.twgm .iw-setting .col-md-2 {
+    width: 16.66666667% !important;
+    float: left;
+}
+
+.twgm .iw-setting .form-control {
+    padding: 6px 3px;
+}
+
+.twgm .iw-setting .panel {
+    box-shadow: none;
+    border: none;
+}
+
+.iw-setting button.accordion {
+    /*background-color: #616161;
+    color: white !important;
+    cursor: pointer;
+    padding: 10px 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.4s;*/
+
+    
+    background-color: #f1f1f1;
+    color: #616161 !important;
+    cursor: pointer;
+    padding: 10px 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.4s;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 7px solid #ff4f4f;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.03); */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    margin: 3px;
+    
+}
+
+.iw-setting button.accordion.active, 
+.iw-setting button.accordion:hover {
+    /*background-color: #ff4f4f;
+    color: white;*/
+
+    background-color: #616161;
+    color: white !important;
+    
+}
+
+.iw-setting div.panel {
+    padding: 0 17px !important;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    margin-bottom: 0px !important;
+}
+
+
+.iw-setting div.panel.show {
+    opacity: 1;
+    /*max-height: 500px;*/
+    max-height: 800px;  
+    padding: 20px 17px !important;
+    border-radius: 0px;
+}
+
+
+/******************************
+        FORM GROUP COLOR 
+*******************************/
+.fg-color .box-color {
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.17);
+    border: 1px solid #eeeeee;
+}
+
+.fg-color label {
+    font-size: 11px;
+}
